@@ -1,0 +1,7 @@
+backoff
+datasets
+pandas
+numpy
+pyconll
+transformers
+tqdm
