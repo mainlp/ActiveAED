@@ -4,6 +4,9 @@
 
 This repository contains the code for the paper "ActiveAED: A Human in the Loop Improves Annotation Error Detection". The goal of ActiveAED is to improve the performance of Annotation Error Detection (AED) models by involving a human annotator in the prediction loop.
 
+![ActiveAED](images/activeaed.png)
+
+
 ## Requirements
 
 - Python 3.9 or higher
