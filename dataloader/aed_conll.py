@@ -66,7 +66,7 @@ _SCHEMA = datasets.Features({
 })
 
 
-class AED_GUM(datasets.GeneratorBasedBuilder):
+class AED_CONLL(datasets.GeneratorBasedBuilder):
     _VERSION = datasets.Version(_SOURCE_VERSION)
 
     def _info(self) -> datasets.DatasetInfo:

@@ -52,7 +52,7 @@ _CITATION = """\
 }
 """
 
-_DATASETNAME = "aed_atis"
+_DATASETNAME = "aed_sst"
 
 _DESCRIPTION = """\
 This dataset is designed for Annotation Error Detection.
@@ -72,7 +72,7 @@ _SCHEMA = datasets.Features({
 })
 
 
-class InconsistenciesCompanies(datasets.GeneratorBasedBuilder):
+class AED_SST(datasets.GeneratorBasedBuilder):
     _VERSION = datasets.Version(_SOURCE_VERSION)
 
     def _info(self) -> datasets.DatasetInfo:

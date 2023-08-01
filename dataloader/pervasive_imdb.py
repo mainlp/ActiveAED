@@ -65,7 +65,7 @@ _SCHEMA = datasets.Features({
 })
 
 
-class InconsistenciesFlights(datasets.GeneratorBasedBuilder):
+class PervasiveIMDB(datasets.GeneratorBasedBuilder):
     _VERSION = datasets.Version(_SOURCE_VERSION)
 
     def _info(self) -> datasets.DatasetInfo:
